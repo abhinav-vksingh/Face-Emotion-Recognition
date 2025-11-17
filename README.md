@@ -26,6 +26,18 @@ Frameworks: TensorFlow / Keras, OpenCV
 ├── data/
 └── confusion_matrix.png
 
+📦 Dataset Download
+The dataset used for training this project (FER images organized into emotion folders) can be downloaded from the release section.
+
+🔗 Download Dataset:
+👉 [Download data.zip](https://github.com/abhinav-vksingh/Face-Emotion-Recognition/releases/download/Dataset-Face-emotion-recognition/data.zip)
+
+Note: Extract the ZIP file into a data/ folder with the following structure:
+data/
+ ├── train/
+ ├── val/
+ └── test/
+
 🚀 Training
 python train.py --data_dir ./data --model_dir ./models --use_augmentation
 🧪 Testing & Evaluation
